@@ -1,0 +1,87 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA CALCULAR IMC</h1>
+
+<body></body>
+<script>
+
+    function saltarLinea() {  // shift + alt + tecla de abajo = copia linea
+
+        document.write("<br>")
+        document.write("<br>")
+        document.write("<br>")
+
+    }
+
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltarLinea();
+
+    }
+
+    pesoManuel = 45
+    alturaManuel = 1.70
+    imcMamuel = pesoManuel / (alturaManuel * alturaManuel)
+
+    imprimir("El IMC de Manuel es " + imcMamuel)
+
+
+
+
+    function calcularImc(peso, altura) {
+        imc = peso / (altura * altura);
+        return (imc);
+    }
+
+    pesoJuan = 45
+    alturaJuan = 1.70
+    imcJuan = calcularImc(pesoJuan, alturaJuan)
+    // imcNombre = pesoNombre / (alturaNombre * alturaNombre)
+
+    imprimir("El IMC de Juan es " + imcJuan)
+
+
+
+
+    function calcularIMC(peso, altura, nombre) {
+
+        imc = peso / (altura * altura);
+        imprimir("El imc calculado de " + nombre + " es " + imc);
+    }
+
+    calcularIMC(45, 1.70, "Manuel");
+    calcularIMC(55, 1.65, "Cristian");
+
+
+
+
+    function calcularImc(peso, altura) {
+
+        imc = peso / (altura * altura);
+        return imc;
+
+    }
+
+    var imcGon = calcularImc(45, 1.70);
+    var imcGin = calcularImc(55, 1.75);
+
+    imprimir("El promedio del imc calculado de Gon y Gin es: " + (imcGon + imcGin) / 2);
+
+
+
+
+    function calcularImc(peso, altura) {
+
+        return (peso / (altura * altura));
+
+    }
+
+    nombre = prompt("informe su nombre")
+    pesoInformacion = prompt(nombre + " informe su peso")
+    alturaInformacion = prompt(nombre + " informe su altura")
+
+    imcCalculado = calcularImc(pesoInformacion, alturaInformacion)
+
+    imprimir("El imc calculado de " + nombre + " es: " + imcCalculado);
+
+</script>
