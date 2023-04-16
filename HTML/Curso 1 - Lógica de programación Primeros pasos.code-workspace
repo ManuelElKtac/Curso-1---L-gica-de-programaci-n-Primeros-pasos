@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"path": "../../Curso 2 - Lógica de programación Conceptos primordiales"
 		}
 	],
 	"settings": {}
