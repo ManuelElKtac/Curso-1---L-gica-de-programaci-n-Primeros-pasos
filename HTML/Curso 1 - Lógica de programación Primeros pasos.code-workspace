@@ -10,5 +10,7 @@
 			"path": "../../Curso 3 - Lógica de programación Practicando con juegos y animaciones"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso 1 - Lógica de programación Primeros pasos"
+	}
 }
