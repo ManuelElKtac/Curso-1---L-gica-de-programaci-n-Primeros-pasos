@@ -1,16 +1,19 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../Curso 2 - Lógica de programación Conceptos primordiales"
-		},
-		{
-			"path": "../../Curso 3 - Lógica de programación Practicando con juegos y animaciones"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Curso 1 - Lógica de programación Primeros pasos"
-	}
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../Curso 2 - Lógica de programación Conceptos primordiales"
+    },
+    {
+      "path": "../../Curso 3 - Lógica de programación Practicando con juegos y animaciones"
+    },
+    {
+      "path": "../../Parte 1 - Mi primera página web HTML5 y CSS3"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Parte 1 - Mi primera página web HTML5 y CSS3"
+  }
 }
